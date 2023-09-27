@@ -159,7 +159,7 @@ namespace BBDown
             }
 
             if (!string.IsNullOrEmpty(pic))
-                metaArg.Append($"-disposition:v:{(audioOnly ? 0 : 1)} attached_pic ");
+                // metaArg.Append($"-disposition:v:{(audioOnly ? 0 : 1)} attached_pic ");
                 // metaArg.Append($"-disposition:v:{(audioOnly ? \"0\" : \"1\")} attached_pic ");
             // var inputCount = InputRegex().Matches(inputArg.ToString()).Count;
 
